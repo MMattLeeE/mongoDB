@@ -6,6 +6,10 @@ import java.net.UnknownHostException;
 
 /**
  * Created by Matt on 6/5/2017.
+ *
+ *  Straight forward walk through in setting up mongoDB and a daemon to connect to:
+ *      https://www.youtube.com/watch?v=2Cd8rznMOho
+ *
  */
 public class MongoDB {
 
@@ -15,6 +19,7 @@ public class MongoDB {
 
     private static String collectionName = "users";
 
+    //called in start of main to setup a connection to DB
     public static void setMongoDatabaseConnection() {
         try {
             MongoDB.mongoDatabaseConnection = new MongoClient(new ServerAddress("Localhost", 27017));

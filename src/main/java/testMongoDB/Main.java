@@ -24,7 +24,7 @@ public class Main extends Application{
         primaryStage.setTitle("Matt Login");
         primaryStage.setScene(scene);
         primaryStage.show();
-        
+
     }
 
     public static void main(String[] args) {
