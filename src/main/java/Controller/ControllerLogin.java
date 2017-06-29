@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 
 import testMongoDB.MongoDB;
-import testMongoDB.User;
+import testMongoDB.Model.User;
 import testMongoDB.Model.UserCurrent;
 
 import java.io.IOException;

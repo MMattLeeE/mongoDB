@@ -1,6 +1,7 @@
 package testMongoDB;
 
 import com.mongodb.*;
+import testMongoDB.Model.User;
 
 import java.net.UnknownHostException;
 

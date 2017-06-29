@@ -1,7 +1,5 @@
 package testMongoDB.Model;
 
-import testMongoDB.User;
-
 /**
  * Created by Matt on 6/6/2017.
  */

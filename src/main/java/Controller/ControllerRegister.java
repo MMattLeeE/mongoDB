@@ -10,7 +10,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
 
 import testMongoDB.MongoDB;
-import testMongoDB.User;
+import testMongoDB.Model.User;
 
 import java.io.File;
 import java.io.IOException;

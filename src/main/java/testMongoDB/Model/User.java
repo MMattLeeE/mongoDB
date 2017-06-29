@@ -1,4 +1,4 @@
-package testMongoDB;
+package testMongoDB.Model;
 
 import testMongoDB.Model.Person;
 
